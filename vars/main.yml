@@ -1,0 +1,8 @@
+---
+# vars file for virtletctl
+virtletctl_exe: virtletctl{{virtletctl_exe_suffix|default("")}}
+virtletctl_url: '{{virtletctl_mirror}}/{{virtletctl_ver}}/virtletctl'
+virtletctl_checksum: '{{virtletctl_checksums[virtletctl_ver]}}'
+virtletctl_versioned_exe: '{{virtletctl_exe}}.{{virtletctl_ver}}'
+virtletctl_install_versioned_exe: '{{virtletctl_install_dir}}/{{virtletctl_versioned_exe}}'
+virtletctl_install_link: '{{virtletctl_install_dir}}/virtletctl'
