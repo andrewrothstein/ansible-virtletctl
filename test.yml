@@ -2,6 +2,3 @@
 - hosts: all
   roles:
     - role: '{{playbook_dir}}'
-  tasks:
-    - name: ensure runnable
-      command: '{{virtletctl_install_link}} version'
