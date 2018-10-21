@@ -1,2 +1,3 @@
 ---
-virtletctl_exe_suffix: .darwin
+virtletctl_platform: darwin
+virtletctl_exe_suffix: '.{{virtletctl_platform}}'

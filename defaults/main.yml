@@ -1,7 +1,17 @@
 ---
 # defaults file for virtletctl
-virtletctl_ver: v1.0.1
+virtletctl_ver: v1.4.1
 virtletctl_mirror: https://github.com/Mirantis/virtlet/releases/download
 virtletctl_install_dir: /usr/local/bin
+virtletctl_platform: linux
+
+# https://github.com/Mirantis/virtlet/releases
 virtletctl_checksums:
-  v1.0.1: sha256:85fa55430efe1ea5fc60d67a7c79af8e15365a4932dfba93254422178f583411
+  v1.0.1:
+    linux: sha256:85fa55430efe1ea5fc60d67a7c79af8e15365a4932dfba93254422178f583411
+  v1.1.2:
+    linux: sha256:31c2888f70231221eeda2aee186089756a5a49f740b35fb948432fbb771792d1
+    darwin: sha256:0aa04a4a94e8f1b8ae1c12b19e42a7699da3ec1265f7227fc8d6dd0ca620be45
+  v1.4.1:
+    linux: sha256:0c91ad3816f3aa1e5cd8bcb3e9697e184b44ace692142de65c5daefb85d3816f
+    darwin: sha256:4417b26c10e5021c1cb76f9cb0f7acbdfd875bef871abccf948d5558e8d25e44
