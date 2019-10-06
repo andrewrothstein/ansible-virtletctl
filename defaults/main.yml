@@ -26,4 +26,3 @@ virtletctl_checksums:
     linux: sha256:dcb936619abab8ec1d02e7ccd5c890dba7c3d05c6c5631ab41fe871f5e79c531
     # https://github.com/Mirantis/virtlet/releases/download/v1.5.1/virtletctl.darwin
     darwin: sha256:ce980192c4bb2929cab3ff03d82926c98c84832879a859fd5ce583808464579b
-
