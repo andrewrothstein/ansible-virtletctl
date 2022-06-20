@@ -1,6 +1,6 @@
 andrewrothstein.virtletctl
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-virtletctl.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-virtletctl)
+![Build Status](https://github.com/andrewrothstein/ansible-virtletctl/actions/workflows/build.yml/badge.svg)
 
 Installs [virtletctl](https://github.com/Mirantis/virtlet).
 
